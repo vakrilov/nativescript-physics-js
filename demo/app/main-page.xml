@@ -1,0 +1,5 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" actionBarHidden="true">
+    <GridLayout id="container">
+        <Label id="meta"/>
+    </GridLayout>
+</Page>

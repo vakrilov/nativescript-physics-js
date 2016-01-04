@@ -1,0 +1,33 @@
+{
+  "name": "nativescript-physics-js",
+  "version": "1.0.0",
+  "description": "NativeScript renderer for PhysicsJS library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vakrilov/nativescript-physics-js.git"
+  },
+  "keywords": [
+    "nativescript",
+    "physics",
+    "game"
+  ],
+  "nativescript": {
+    "platforms": {
+      "ios": "1.5.0",
+      "android": "1.5.0"
+    }
+  },
+  "author": "Alexander Vakrilov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vakrilov/nativescript-physics-js/issues"
+  },
+  "homepage": "https://github.com/vakrilov/nativescript-physics-js",
+  "dependencies": {
+    "tns-core-modules": "^1.5.1"
+  }
+}

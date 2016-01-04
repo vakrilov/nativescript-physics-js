@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "inlineSourceMap": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "emitDecoratorMetadata": true,
+        "noEmitOnError": true
+    },
+    "filesGlob": [
+        "node_modules/tns-core-modules/tns-core-modules.d.ts",
+        "index.ts",
+        "physics/**/*.ts"
+    ],
+    "files": [
+        "index.ts",
+        "physics/ns-renderer.ts",
+        "node_modules/tns-core-modules/tns-core-modules.d.ts"
+    ]
+}
