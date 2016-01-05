@@ -9,7 +9,7 @@ https://docs.nativescript.org/setup/quick-setup
 ## Prepare project
 ```
 git clone https://github.com/vakrilov/nativescript-physics-js.git
-cd demo
+cd nativescript-physics-js/demo
 npm install
 ```
 
