@@ -6,7 +6,7 @@
     }
   },
   "dependencies": {
-    "nativescript-physics-js": "file:../nativescript-physics-js-1.0.0.tgz",
+    "nativescript-physics-js": "^1.0.1",
     "tns-core-modules": "1.5.1"
   }
 }
