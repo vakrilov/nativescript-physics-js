@@ -20,31 +20,42 @@ function pageLoaded(args) {
     }));
     
     // Add bodies
-    world.add(Physics.body('circle', {
-        x: 80,
-        y: 50,
-        vx: 0.2,
-        vy: 0.01,
-        radius: 15,
-        styles: { image: "~/images/ns-logo.png" }
-    }));
+    // world.add(Physics.body('circle', {
+    //     x: 80,
+    //     y: 50,
+    //     vx: 0.2,
+    //     vy: 0.01,
+    //     radius: 15,
+    //     styles: { image: "~/images/ns-logo.png" }
+    // }));
 
     world.add(Physics.body('circle', {
         x: 120,
         y: 80,
         vx: -0.2, // velocity in x-direction
-        vy: -0.01, // velocity in y-direction
+        vy: 0.3, // velocity in y-direction
         radius: 30,
         styles: { image: "~/images/ns-logo.png" }
     }));
+    
+    world.add(Physics.body('rectangle', {
+        x: 80,
+        y: 220,
+        angle: -Math.PI / 4,
+        width: 40,
+        height: 120,
+        treatment: 'static',
+        styles: { color: "orange" }
+    }));
+    
 
     // Add behaviors
     world.add([
         Physics.behavior('edge-collision-detection', { aabb: Physics.aabb(0, 0, 300, 300) }),
         Physics.behavior('body-collision-detection'),
         Physics.behavior('body-impulse-response'),
-        Physics.behavior('sweep-prune'),
-        Physics.behavior('constant-acceleration') // Gravity
+        Physics.behavior('sweep-prune')
+        , Physics.behavior('constant-acceleration') // Gravity
     ]);
 
     // Start ticking...
