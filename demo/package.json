@@ -1,15 +1,21 @@
 {
 	"nativescript": {
 		"id": "org.nativescript.demo",
-		"tns-ios": {
-			"version": "1.5.2"
-		},
 		"tns-android": {
-			"version": "1.5.1"
+			"version": "3.1.1"
+		},
+		"tns-ios": {
+			"version": "3.1.0"
 		}
 	},
 	"dependencies": {
-		"nativescript-physics-js": "^1.0.1",
-		"tns-core-modules": "1.5.1"
+		"nativescript-physics-js": "^2.0.1",
+		"tns-core-modules": "^3.1.0"
+	},
+	"devDependencies": {
+		"babel-traverse": "6.26.0",
+		"babel-types": "6.26.0",
+		"babylon": "6.18.0",
+		"lazy": "1.0.11"
 	}
 }
