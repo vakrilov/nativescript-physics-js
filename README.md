@@ -1,3 +1,5 @@
+:loudspeaker: This repo is not actively developed, but I'll be happy to review and merge PRs!
+
 # PhysicsJS for NativeScript
 This is a NativeScript renderer of the [PhysicsJS](http://wellcaffeinated.net/PhysicsJS) library.
 
